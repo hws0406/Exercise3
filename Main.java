@@ -12,6 +12,8 @@ public class Main {
 		System.out.println("Installment: " + c.installment + "years");
 		System.out.println("Monthly Price: " + c.yearPrice);
 	
+		System.out.println();
+		
 		Car d = new Car("Mercedes", "C Class Coupe", "White", 347000, 10);
 		
 		System.out.println("Brand: " + d.brand);
